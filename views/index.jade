@@ -1,0 +1,33 @@
+extends layout
+
+block content
+	header
+		figure
+			img(src='/images/demo_logo.png') 
+		p Puls3
+		nav
+			ul
+				li
+					a(href="#") Home
+				li
+					a(href="/proyecto") Proyecto
+				li
+					a(href="#") Colaborar
+				li
+					a(href="/signup") Agregar Usuario
+
+
+	div#listing_users
+
+
+block scripts
+	script(src='/javascripts/vendors/jquery.js')
+	script(src='/javascripts/init.js')
+	script(src='/javascripts/vendors/underscore.js')
+	script(src='/javascripts/vendors/backbone.js')
+	script(src='/javascripts/vendors/swig.js')
+	script(src='/javascripts/Backbone/models.js')
+	script(src='/javascripts/Backbone/collections.js')
+	script(src='/javascripts/Backbone/views.js')
+	
+	script(src='/javascripts/main.js')

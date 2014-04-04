@@ -1,0 +1,45 @@
+extends layout
+
+block content
+	div.container 
+		div#login-container
+			form(method='GET', role='form', action='/validar')#login-form.col-md-5.contorno.well
+				div#titulo-form
+					h1 Bienvenido!
+					p.subtitulo Ingresa tu usuario y contraseña
+				div#img-form
+					figure
+						a(href='/')
+							img(src='/images/demo_logo.png') 
+				div.form-group
+					label(for='username') usuario
+					input(type='text', name='username', id='username-log')
+				div.form-group
+					label(form='password') contraseña
+					input(type='password', name='password', id='password-log')
+				div.form-group
+					button(type='button', id='btnIngresar').btn.btn-primary.btn-lg
+						span.glyphicon.glyphicon-log-in  
+						|   ingresar
+					div.checkbox.col-md-offset-1
+						label
+							input(type='checkbox',checked='checked',name='rememberme', id='rememberme')
+							| recordar me
+				hr
+				div.form-group
+					div.btm-links
+						a(href='#')#forgot-password Olvidaste tu contraseña
+						a(href='/signup')#create-account.col-md-offset-1 Crear cuenta
+
+		include modals/alertas
+		include modals/lost-password
+
+block scripts
+	script(src='/javascripts/vendors/jquery.js')
+	script(src='/javascripts/vendors/jquery-form.js')
+	script(src='/javascripts/vendors/bootstrap.js')
+	script(src='/javascripts/demo.js')
+	script(src='/javascripts/controllers/loginController.js')
+	script(src='/javascripts/validators/loginValidator.js')
+	script(src='/javascripts/validators/emailValidator.js')
+

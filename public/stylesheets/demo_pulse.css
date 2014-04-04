@@ -1,0 +1,52 @@
+body{background-color:#ecf0f1;margin:0;padding:0;font-family:'Open Sans',sans-serif}
+header{background-color:#2c3e50;border-bottom:5px solid #ff813e;width:100%;height:75px;margin:0;padding:0;}
+header img{width:100%}
+header figure,header p,header nav{display:inline-block;vertical-align:middle}
+header figure{margin:0;padding:0;margin-left:50px;width:50px}
+header p{color:#ff813e;font-size:45px;margin:0;padding:0;margin-left:10px;text-transform:uppercase}
+header nav{width:50%;height:100%;margin-left:50px;}
+header nav ul{list-style:none;height:100%;margin:0;padding:0;text-align:left;}
+header nav ul li{display:inline-block;vertical-align:bottom;height:100%;margin-left:30px;padding:0 15px 0 15px;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out;}
+header nav ul li:hover{cursor:pointer;background-color:#ff813e;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out;}
+header nav ul li:hover a{color:#fff;text-decoration:none}
+header nav ul li a{color:#ff813e;font-size:20px;position:relative;top:30%;text-decoration:none}
+.contorno{border:2px solid #ff813e;margin-left:0}
+.divider{color:#ff813e;border-bottom:1px solid #ff813e;box-shadow:0 1px #e67e22;padding-bottom:5px;width:100%}
+.error{font-size:20px}
+.error-title{color:#e74c3c}
+div.container{background-color:transparent;height:100%}
+#login-container{color:#34495e;margin-top:5%;margin-left:27%;width:100%;}
+#login-container #login-form img,#login-container #register-form img{width:100%}
+#login-container #login-form #titulo-form,#login-container #register-form #titulo-form,#login-container #login-form #img-form,#login-container #register-form #img-form{display:inline-block;vertical-align:top;padding-bottom:15px}
+#login-container #login-form #img-form figure,#login-container #register-form #img-form figure{width:65px}
+#login-container #login-form input,#login-container #register-form input,#login-container #login-form label,#login-container #register-form label,#login-container #login-form select,#login-container #register-form select{width:90%}
+#login-container #login-form input,#login-container #register-form input,#login-container #login-form select,#login-container #register-form select{height:30px;font-size:16px}
+#login-container #login-form button,#login-container #register-form button,#login-container #login-form div.checkbox,#login-container #register-form div.checkbox{display:inline-block;font-family:'open Sans';font-size:18px;margin-right:15px}
+#login-container #login-form input[type='checkbox'],#login-container #register-form input[type='checkbox']{width:15px}
+#listing_users{margin:0 auto;padding:0;width:90%;margin-top:50px;}
+#listing_users div{display:inline-block;vertical-align:top;width:47%;margin:0 auto;padding:0;margin:4px;}
+#listing_users div .usuario_container{display:inline-block;vertical-align:top;width:100%;-webkit-transform:scale(1,1);-webkit-transition-timing-function:ease-out;-webkit-transition-duration:250ms;}
+#listing_users div .usuario_container img{width:100%}
+#listing_users div .usuario_container figure,#listing_users div .usuario_container .perfil_usuario{display:inline-block;vertical-align:middle}
+#listing_users div .usuario_container figure{width:25%;margin:0;padding:0;margin-left:5px;margin-right:10px}
+#listing_users div .usuario_container .perfil_usuario{width:70%;margin-top:5px;padding-left:5px;}
+#listing_users div .usuario_container .perfil_usuario .name_usuario,#listing_users div .usuario_container .perfil_usuario .puesto_usuario,#listing_users div .usuario_container .perfil_usuario .info_usuario,#listing_users div .usuario_container .perfil_usuario .email_usuario{width:100%;}
+#listing_users div .usuario_container .perfil_usuario .name_usuario p,#listing_users div .usuario_container .perfil_usuario .puesto_usuario p,#listing_users div .usuario_container .perfil_usuario .info_usuario p,#listing_users div .usuario_container .perfil_usuario .email_usuario p{display:inline-block;vertical-align:top}
+#listing_users div .usuario_container .perfil_usuario .info_usuario .info{width:100%}
+#listing_users div:hover{cursor:pointer}
+.tipoUsuario-1{background-color:rgba(46,204,113,0.3);border-right:3px solid #27ae60;text-decoration:none;}
+.tipoUsuario-1 a{color:#fff}
+.tipoUsuario-1 .etiqueta{color:#27ae60;font-weight:bold}
+.tipoUsuario-1 .info{color:#2980b9}
+.tipoUsuario-2{background-color:rgba(230,126,34,0.3);border-right:3px solid #e67e22;text-decoration:none;}
+.tipoUsuario-2 a{color:#fff}
+.tipoUsuario-2 .etiqueta{color:#d35400;font-weight:bold}
+.tipoUsuario-2 .info{color:#c0392b}
+.tipoUsuario-3{background-color:rgba(231,76,60,0.2);border-right:3px solid #e74c3c;text-decoration:none;}
+.tipoUsuario-3 a{color:#fff}
+.tipoUsuario-3 .etiqueta{color:#c0392b;font-weight:bold}
+.tipoUsuario-3 .info{color:#d35400}
+.tipoUsuario-4{background-color:rgba(52,152,219,0.3);border-right:3px solid #3498db;text-decoration:none;}
+.tipoUsuario-4 a{color:#fff}
+.tipoUsuario-4 .etiqueta{color:#2980b9;font-weight:bold}
+.tipoUsuario-4 .info{color:#2c3e50}

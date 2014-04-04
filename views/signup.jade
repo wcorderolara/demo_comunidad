@@ -1,0 +1,47 @@
+extends layout
+
+block content
+	div.container 
+		div#login-container
+			form(method='post', role='form', action='/add/user')#register-form.col-md-5.contorno.well
+				div#titulo-form
+					h1 Agregar Usuario!
+					p.subtitulo lo guardaremos en la tabla en DB MySql
+				div#img-form
+					figure
+						a(href='/')
+							img(src='/images/demo_logo.png') 
+				div.form-group
+					label(for='username') Nombre de usuario
+					input(type='text', name='username', id='username')
+				div.form-group
+					label(for='tipoUsuario') Tipo usuario
+					select(id='tipoUsuario', name='tipoUsuario')
+						option(value='0', selected='selected') -- seleccione --
+				div.form-group
+					label(form='email') Email
+					input(type='email', name='email', id='email')
+				div.form-group
+					label(form='informacion') Información
+					textarea(rows='10', cols='46', name='informacion', id='informacion')
+
+				div.form-group
+					button(type='submit', id='btnRegistrar').btn.btn-primary.btn-sm
+						span.glyphicon.glyphicon-user  
+						|   Agregar
+					button(type='button', id='btnCancelar').btn.btn-danger.btn-sm
+						span.glyphicon.glyphicon-remove  
+						|   cancelar
+				hr
+
+
+		include modals/alertas
+
+block scripts
+	script(src='/javascripts/vendors/jquery.js')
+	script(src='/javascripts/vendors/jquery-form.js')
+	script(src='/javascripts/vendors/bootstrap.js')
+	script(src='/javascripts/demo.js')
+	script(src='/javascripts/controllers/loginController.js')
+	script(src='/javascripts/validators/loginValidator.js')
+	script(src='/javascripts/validators/emailValidator.js')

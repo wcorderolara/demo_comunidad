@@ -1,0 +1,17 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.5.1",
+    "jade": "*",
+    "normalize.css": "~3.0.1",
+    "mysql": "~2.1.1",
+    "passport": "~0.2.0",
+    "passport-facebook": "~1.0.3",
+    "passport-github": "~0.1.5"
+  }
+}
