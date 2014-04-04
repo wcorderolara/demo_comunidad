@@ -12,7 +12,7 @@ $(document).ready(function(){
 	console.log("hola");
 	var xhr = $.ajax({
         type : 'GET',
-        url  : '//127.0.0.1:3000/usuarios',
+        url  : '//127.0.0.1:3002/usuarios',
         //dataType : 'jsonp'    
     })
 
