@@ -50,3 +50,19 @@ div.container{background-color:transparent;height:100%}
 .tipoUsuario-4 a{color:#fff}
 .tipoUsuario-4 .etiqueta{color:#2980b9;font-weight:bold}
 .tipoUsuario-4 .info{color:#2c3e50}
+.tipoUsuario-5{background-color:rgba(46,204,113,0.3);border-right:3px solid #27ae60;text-decoration:none;}
+.tipoUsuario-5 a{color:#fff}
+.tipoUsuario-5 .etiqueta{color:#27ae60;font-weight:bold}
+.tipoUsuario-5 .info{color:#2980b9}
+.tipoUsuario-6{background-color:rgba(230,126,34,0.3);border-right:3px solid #e67e22;text-decoration:none;}
+.tipoUsuario-6 a{color:#fff}
+.tipoUsuario-6 .etiqueta{color:#d35400;font-weight:bold}
+.tipoUsuario-6 .info{color:#c0392b}
+.tipoUsuario-7{background-color:rgba(231,76,60,0.2);border-right:3px solid #e74c3c;text-decoration:none;}
+.tipoUsuario-7 a{color:#fff}
+.tipoUsuario-7 .etiqueta{color:#c0392b;font-weight:bold}
+.tipoUsuario-7 .info{color:#d35400}
+.tipoUsuario-8{background-color:rgba(52,152,219,0.3);border-right:3px solid #3498db;text-decoration:none;}
+.tipoUsuario-8 a{color:#fff}
+.tipoUsuario-8 .etiqueta{color:#2980b9;font-weight:bold}
+.tipoUsuario-8 .info{color:#2c3e50}

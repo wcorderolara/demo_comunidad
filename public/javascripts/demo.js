@@ -5,7 +5,7 @@ $(document).ready(function(){
 	//Get users type
 	$.ajax({
         type : 'GET',
-        url  : '//127.0.0.1:3002/tipo_usuario',
+        url  : '//162.243.96.184:3002/tipo_usuario',
         //dataType : 'jsonp'    
     })
 
@@ -22,7 +22,7 @@ $(document).ready(function(){
 		}else{
 			$.ajax({
 				type : 'POST',
-				url : '//127.0.0.1:3002/add/user',
+				url : '//162.243.96.184:3002/add/user',
 				contentType: 'application/json; charset=utf-8',
             	dataType: 'json',
             	data: JSON.stringify({ 
